@@ -144,10 +144,13 @@
   <ItemGroup>
     <ClCompile Include="DateTime.cpp" />
     <ClCompile Include="Events.cpp" />
+    <ClCompile Include="Schedule.cpp" />
+    <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DateTime.h" />
     <ClInclude Include="Events.h" />
+    <ClInclude Include="Schedule.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
